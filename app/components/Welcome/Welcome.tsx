@@ -1,4 +1,4 @@
-import { Title, Text } from "@mantine/core";
+import { Title, Text, Group, Tooltip, Button } from "@mantine/core";
 import classes from "./Welcome.module.css";
 
 export function Welcome() {
@@ -16,8 +16,17 @@ export function Welcome() {
         </Text>
       </Title>
       <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
-        Join three adventurous friends on a journey full of fun, discovery, and excitement! This interactive children&apos;s book brings their story to life with engaging animations, captivating illustrations, and imaginative minigames. Explore the world of friendship, bravery, and teamwork as you dive into the pages of their adventure.
+        Join three adventurous friends on a journey full of fun, discovery, and
+        excitement! This interactive children&apos;s book brings their story to
+        life with engaging animations, captivating illustrations, and
+        imaginative minigames. Explore the world of friendship, bravery, and
+        teamwork as you dive into the pages of their adventure.
       </Text>
+      <Group justify="center" mt="xl">
+        <Tooltip label="Coming soon!">
+          <Button disabled>Start the Adventure</Button>
+        </Tooltip>
+      </Group>
     </>
   );
 }

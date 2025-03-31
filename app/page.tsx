@@ -2,14 +2,11 @@ import { Button, Group, Tooltip } from "@mantine/core";
 import { Welcome } from "./components/Welcome/Welcome";
 
 export default function HomePage() {
-  return <>
-    <Welcome />
-    <Group justify="center" mt="xl">
-      <Tooltip label="Coming soon!">
-        <Button disabled>Start the Adventure</Button>
-      </Tooltip>
-    </Group>
-    {/* <Text>Welcome to the Forest Adventures!</Text>
+  return (
+    <>
+      <Welcome />
+
+      {/* <Text>Welcome to the Forest Adventures!</Text>
   <Text>
     Join Frog, Snake, and Rabbit on their exciting journeys through the forest, where they discover the true meaning of friendship, kindness, and courage. Inspired by tales passed down through generations, this heartwarming book teaches children that it&apos;s okay to be afraid, and that friends are always there to support one another.
   </Text>
@@ -20,6 +17,7 @@ export default function HomePage() {
   <Group justify="center" mt="xl">
     <Button component="a" href="about">Preview the Book</Button>
   </Group> */}
-    {/* <ColorSchemeToggle /> */}
-  </>
+      {/* <ColorSchemeToggle /> */}
+    </>
+  );
 }
