@@ -6,8 +6,8 @@ export function Footer() {
     <footer className={styles.footer}>
       <Container className={styles.inner}>
         <Group justify="center" w="100%">
-          <Anchor href="https://mitchie.dev/" size="sm" c="dimmed" ta="center">
-            MITCHIE.DEV
+          <Anchor href="https://mhresko.com/" size="sm" c="dimmed" ta="center">
+            mhresko.com
           </Anchor>
 
           {/* <Text size="sm" c="dimmed">
