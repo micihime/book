@@ -1,8 +1,6 @@
 import "@mantine/core/styles.css";
-import React from "react";
 import {
   MantineProvider,
-  ColorSchemeScript,
   mantineHtmlProps,
 } from "@mantine/core";
 import { theme } from "../theme";
@@ -16,7 +14,6 @@ export default function RootLayout({ children }: { children: any }) {
   return (
     <html lang="en" {...mantineHtmlProps}>
       <head>
-        <ColorSchemeScript />
         <link rel="shortcut icon" href="/favicon.svg" />
         <meta
           name="viewport"
