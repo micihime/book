@@ -3,7 +3,6 @@ import { Title, Text } from "@mantine/core";
 export default function Spotlight() {
     return (
         <>
-            {/* Character Spotlights: Introduce the three friends with small illustrations and short bios. For example: */}
             <Title>Meet the Characters</Title>
             <Text>
                 Klotilda: Always ready for an adventure, Frog is brave but knows when to ask for help. With a big heart, he jumps into challenges headfirst, often leading the way for his friends.
@@ -14,7 +13,6 @@ export default function Spotlight() {
             <Text>
                 Miško: Full of energy and always up for a game, Rabbit reminds everyone that fun and laughter are just as important as courage and wisdom.
             </Text>
-            {/* Interactive Element: Clicking on the characters could trigger a small animation or sound related to their personalities. */}
         </>
     );
 }
